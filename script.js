@@ -16,12 +16,11 @@ submitBtn.addEventListener("click", function(e){
 
 
 tr.innerHTML = `
-<td>${title}</td>;
-<td>${author}</td>
-<td>${isbn}</td>
-<td>const tr = document.createElement("tr")</td>
+  <td>${title}</td>
+  <td>${author}</td>
+  <td>${isbn}</td>
+  <td><button class="delete">Clear</button></td>
 `;
-
  bookList.appendChild(tr)
 //clear commands
 document.getElementById("title").value="";
